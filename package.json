@@ -1,0 +1,44 @@
+{
+  "name": "electron_native_node_demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LDTM2019",
+  "productName": "LDTM2019",
+  "author": {
+    "name": "Markus Klemm",
+    "email": "markus.klemm@markusklemm.net"
+  },
+  "license": "UNLICENSED",
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "3.1.9"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6",
+    "spielwiese": "https://github.com/Superlokkus/spielwiese.git#napi",
+  },
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "yarn generate-dep-license-list && react-scripts build",
+    "test": "react-scripts test",
+    "generate-dep-license-list": "node_modules/license-checker/bin/license-checker --json --customPath customFormatForLicenseChecker.json --out src/dep-licenses.json",
+    "eject": "react-scripts eject",
+    "electron": "build electron .",
+    "electron-dev": "react-scripts build && ELECTRON_START_URL=http://localhost:3000 electron .",
+    "pack": "electron-builder --dir",
+    "dist": "build && electron-builder"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "electron": "^3.0.0",
+    "electron-builder": "^20.0.7",
+    "typescript": "^3.4.5"
+  },
+  "main": "init.js"
+}

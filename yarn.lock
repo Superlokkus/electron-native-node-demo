@@ -1,0 +1,22 @@
+cmake-js@^5.2.0:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/cmake-js/-/cmake-js-5.3.1.tgz#abd4cfeb4bf3f587f8ff4d827e834edc78f8db41"
+  integrity sha512-TYx8CHlhZbCH0vn3vvylV5jlTyDi5mGJJ5LlpcZAYRABtC0fVB7TcGEb25OCG6fMZm7qh9yyzMbHdlzt6wH7KQ==
+  dependencies:
+    bluebird "^3"
+    debug "^4"
+    fs-extra "^5.0.0"
+    is-iojs "^1.0.1"
+    lodash "^4"
+    memory-stream "0"
+    npmlog "^1.2.0"
+    rc "^1.2.7"
+    request "^2.54.0"
+    semver "^5.0.3"
+    splitargs "0"
+    tar "^4"
+    traceur "0.0.x"
+    unzipper "^0.8.13"
+    url-join "0"
+    which "^1.0.9"
+    yargs "^3.6.0"

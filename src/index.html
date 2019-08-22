@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NAPI Test</title>
+</head>
+<body>
+<h1>NAPI Test</h1>
+After this sentence, "world" should be printed: <script>
+    const addon = window.require('spielwiese');
+    document.write(addon.hello());
+</script>
+</body>
+</html>

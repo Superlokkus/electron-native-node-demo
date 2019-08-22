@@ -20,9 +20,8 @@
   "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn generate-dep-license-list && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "generate-dep-license-list": "node_modules/license-checker/bin/license-checker --json --customPath customFormatForLicenseChecker.json --out src/dep-licenses.json",
     "eject": "react-scripts eject",
     "electron": "build electron .",
     "electron-dev": "react-scripts build && ELECTRON_START_URL=http://localhost:3000 electron .",

@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "electron-updater": "^4.0.6",
-    "spielwiese": "https://github.com/Superlokkus/spielwiese.git#napi"
+    "spielwiese": "https://github.com/Superlokkus/spielwiese.git#napi_new_napi_version"
   },
   "homepage": "./",
   "scripts": {
